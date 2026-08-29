@@ -13,7 +13,7 @@ Fonte canônica:
 - SHA-256 do SVG: `030e27ab36b00f0413ac9e4d3f49ce27e62df107108bb27ff10b9f8f40e29cd1`.
 
 O arquivo `i9-organization-avatar.svg` é uma cópia byte a byte dessa fonte. O
-PNG aplicado ao GitHub foi rasterizado sem recorte ou alteração visual:
+PNG preparado para o GitHub foi rasterizado sem recorte ou alteração visual:
 
 ```sh
 rsvg-convert -w 512 -h 512 i9-organization-avatar.svg \
@@ -31,14 +31,16 @@ cria uma nova suíte de logos nem substitui o contrato visual do site.
 
 ## Estado anterior e rollback
 
-O avatar anterior foi capturado antes da troca em 29 de agosto de 2026:
+O avatar em uso antes da alteração planejada foi capturado em 29 de agosto de
+2026:
 
 - origem pública: `https://avatars.githubusercontent.com/u/220147853?v=4`;
 - arquivo: `organization-avatar-before.png`;
 - dimensões: `460 × 460`;
 - SHA-256: `1012f8c6b42811c2e1b46dbb4998178c3829c5ec83e83c099477f2f41469139f`.
 
-Para rollback, um owner da organização deve abrir **Settings**, selecionar
-**Upload new picture** e reenviar `organization-avatar-before.png`. Depois,
-deve confirmar por consulta pública que o avatar voltou a corresponder ao hash
-ou à inspeção visual registrada acima.
+Se a troca for aplicada, um owner da organização pode fazer rollback abrindo
+**Settings**, selecionando **Upload new picture** e reenviando
+`organization-avatar-before.png`. Depois, deve confirmar por consulta pública
+que o avatar voltou a corresponder ao hash ou à inspeção visual registrada
+acima.

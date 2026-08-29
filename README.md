@@ -9,4 +9,3 @@ Este repositório especial versiona a apresentação pública da organização
 
 Mudanças devem passar por branch e Pull Request. O merge e alterações externas
 na identidade da organização continuam sujeitos à aprovação do owner.
-Perfil público da organização i-9.ai

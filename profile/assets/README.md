@@ -31,7 +31,7 @@ cria uma nova suíte de logos nem substitui o contrato visual do site.
 
 ## Estado anterior e rollback
 
-O avatar em uso antes da alteração planejada foi capturado em 29 de agosto de
+O avatar anterior foi capturado em 29 de agosto de
 2026:
 
 - origem pública: `https://avatars.githubusercontent.com/u/220147853?v=4`;
@@ -39,8 +39,16 @@ O avatar em uso antes da alteração planejada foi capturado em 29 de agosto de
 - dimensões: `460 × 460`;
 - SHA-256: `1012f8c6b42811c2e1b46dbb4998178c3829c5ec83e83c099477f2f41469139f`.
 
-Se a troca for aplicada, um owner da organização pode fazer rollback abrindo
-**Settings**, selecionando **Upload new picture** e reenviando
-`organization-avatar-before.png`. Depois, deve confirmar por consulta pública
-que o avatar voltou a corresponder ao hash ou à inspeção visual registrada
-acima.
+O PNG preparado foi aplicado à organização `I-9-AI` em 29 de agosto de 2026. O
+GitHub confirmou a atualização na interface e publicou sua própria derivação:
+
+- origem pública: `https://avatars.githubusercontent.com/u/220147853?v=4`;
+- dimensões publicadas: `460 × 460`;
+- formato publicado: PNG RGBA;
+- SHA-256 publicado após a re-encode do GitHub:
+  `d2b587ab840d55dfef008fa2d03fba4524ee096af83dec08575f43fad7ccbeb6`.
+
+Para rollback, um owner da organização abre **Settings**, seleciona **Upload
+new picture** e reenvia `organization-avatar-before.png`. Depois, confirma por
+consulta pública que o avatar voltou a corresponder ao hash ou à inspeção
+visual do estado anterior.
